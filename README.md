@@ -30,7 +30,7 @@ To run the application, you have to:
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/YoloV5-ncnn-Raspberry-Pi-4/archive/refs/heads/main.zip <br/>
+$ wget https://github.com/Qengineering/YoloV5-segmentation-ncnn-RPi4/archive/refs/heads/main.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip, LICENSE and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
@@ -39,17 +39,19 @@ $ rm README.md <br/> <br/>
 Your *MyDir* folder must now look like this: <br/> 
 parking.jpg <br/>
 busstop.jpg <br/>
-YoloV5.cpb <br/>
-yoloV5.cpp <br/>
-yolov5s.bin <br/>
-yolov5s.param <br/>
+YoloV5-seg.cpb <br/>
+main.cpp <br/>
+yolov5n-seg.bin <br/>
+yolov5n-seg.param <br/>
+yolov5s-seg.bin <br/>
+yolov5s-seg.param <br/>
 
 ------------
 
 ## Running the app.
-To run the application load the project file YoloV5.cbp in Code::Blocks. More info or<br/> 
+To run the application load the project file YoloV5-seg.cbp in Code::Blocks. More info or<br/> 
 if you want to connect a camera to the app, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/><br/>
-Many thanks to [nihui](https://github.com/nihui/) again!<br/><br/>
+Many thanks to [FeiGeChuanShu](https://github.com/FeiGeChuanShu)!<br/><br/>
 ![output image]( https://qengineering.eu/github/Busstop_seg_n.webp )
 
 ------------
